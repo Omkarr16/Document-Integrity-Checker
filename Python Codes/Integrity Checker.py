@@ -41,7 +41,7 @@ def check_pdf_integrity(file_path, stored_hash):
     return False
 
 # Example usage (replace with your actual file path and hash)
-file_path = (r"C:\Users\Omkar\Downloads\test.jpg")
+file_path = (r"C:\Users\omkar\Downloads\test.jpg")
 stored_hash = "a39c4520131dd8feee818889cd57ef47af6ec4cfa76e8c98c619c408fc09c684"
 
 check_pdf_integrity(file_path, stored_hash)
